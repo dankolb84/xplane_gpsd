@@ -1,4 +1,4 @@
-#! /bin/python
+#! /usr/bin/python
 #This was used to write an nmea.out file in the correct format for testing with gpsd-fake
 #to get the correct format required by gpsd, which could then be used for the send_data script
 #
