@@ -1,3 +1,6 @@
+#! /usr/bin/python
+
+#used to test sending data in gpsd format. It worked.
 import socket
 import struct
 import random
