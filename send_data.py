@@ -1,3 +1,6 @@
+#! /usr/bin/python
+
+#used to test sending information to X-Plane. Doesn't really serve a purpose at this time
 import socket
 import struct
 import random
