@@ -2,7 +2,8 @@
 #This was used to write an nmea.out file in the correct format for testing with gpsd-fake
 #to get the correct format required by gpsd, which could then be used for the send_data script
 #
-#This doesn't really have a use outside of writing nmea files, which are not needed for gpsd
+# This now sends data out on port 49003 (should be constant rather than magic number) in a 
+# gpsd format, which can then be read by gpsd compatible tracker
 #Dan Kolb <danATdankolbDOTnet> 2015
 
 import socket
