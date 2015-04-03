@@ -1,3 +1,10 @@
+#! /bin/python
+#This was used to write an nmea.out file in the correct format for testing with gpsd-fake
+#to get the correct format required by gpsd, which could then be used for the send_data script
+#
+#This doesn't really have a use outside of writing nmea files, which are not needed for gpsd
+#Dan Kolb <danATdankolbDOTnet> 2015
+
 import socket
 import struct
 import time
